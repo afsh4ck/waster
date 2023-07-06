@@ -85,14 +85,14 @@ while True:
     if balance < 0:
         # Si el balance es negativo, mostramos el mensaje en rojo
         mensaje_color = ROJO
-        mensaje = "¡Cuidado! Estás gastando más de lo que ganas."
+        mensaje = "[*] ¡Cuidado! Estás gastando más de lo que ganas."
     else:
         # Si el balance es positivo, mostramos el mensaje en verde
         mensaje_color = VERDE
-        mensaje = "¡Excelente! Ahorraste {:.2f} este mes.".format(balance)
+        mensaje = "[*] ¡Excelente! Ahorraste {:.2f} este mes.".format(balance)
 
     # Imprimimos el mensaje con el color correspondiente
-    print(mensaje_color + "Balance: {:.2f}".format(balance) + RESET)
+    print(mensaje_color + "[*] Balance: {:.2f}".format(balance) + RESET)
     print(mensaje)
 
     # Pedimos al usuario si quiere volver a calcular los gastos o terminar la sesión
