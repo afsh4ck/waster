@@ -31,11 +31,11 @@ cabecera()
 
 while True:
     print(
-        AMARILLO + "[*] Bienvenido a la calculadora de gastos personal" + RESET)
+        AMARILLO + "[*] Bienvenido a tu calculadora de gastos personales" + RESET)
 
     # Pedimos el ingreso del usuario
     ingreso = float(
-        input(VERDE + "[*] Introduce tu ingreso mensual: " + RESET))
+        input(VERDE + "[*] Introduce tus ingresos mensuales: " + RESET))
 
     # Inicializamos las variables de gastos
     vivienda = 0
